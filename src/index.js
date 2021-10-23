@@ -186,3 +186,49 @@
 //   }
 // });
 // console.log(newNameArr);
+
+/**
+ * 三項演算子
+ */
+
+// ある条件？　ある条件がtrueの時：条件がFalseの時
+// const val1 = 1 > 0 ? "trueです" : "falseです";
+// console.log(val1);
+
+// const num = 1300;
+// console.log(num.toLocaleString()); //  三桁区切りにする
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください。';
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? '１００を超えています' : '範囲内です';
+// }
+// console.log(checkSum(2, 99));
+
+/**
+ * 論理演算子の本当の意味を知ろう　&& ||
+ */
+
+//  const flag1 = true;
+//  const flag2 = false;
+
+//  if (flag1 || flag2){
+//    console.log("1 or 2 are ture.");
+//  }
+
+//  if(flag1 && flag2){
+//   console.log("1 and 2 are true")
+//  }
+
+// // || は左側がfalseなら右側を返す
+//  //const num = 100;
+//  const num = null;
+//  const fee = num || "金額が未設定です";
+//  console.log(fee);
+
+//  // && は左側がTrueなら右側を返す
+//   const num2 = 100;
+//   //const num2 = null;
+//   const fee2 = num2 && "なにか設定されました";
+//   console.log(fee2);
